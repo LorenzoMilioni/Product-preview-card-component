@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&display=swap');
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    background-color: hsl(30, 38%, 92%);
+    min-height: 99%;
+    display: grid;
+}
+
+.container{
+    position:relative;
+    margin:0 auto;
+    clear:left;
+    height:auto;
+    margin-top: 10%;
+}
+
+.left{
+    float: left;
+    width: 375px;
+    height: 550px;
+}
+
+.left img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.right{
+    font-family: 'Fraunces', serif;
+    float: left;
+    width: 375px;
+    height: 550px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0px 20px 20px 0px;
+}
+
+.title1{
+    font-family: 'Montserrat', sans-serif;
+    margin: 10%;
+    letter-spacing: 5px;
+    width: 95%;
+}
+
+.title2{
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 60%;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.description{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    width: 60%;
+    height: 20%;
+    color: grey;
+    font-size: small;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.prices{
+    height: 100px;
+}
+
+#price{
+    color: green;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-weight: bold;
+    font-size: 35px;
+    float: left;
+}
+
+#oldprice{
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+    float: left;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#button{
+    text-align: center;
+    border: none;
+    background-color: green;
+    float: left;
+    margin-left: 10%;
+    width: 75%;
+    border-radius: 10px;
+    height: 10%;
+    color: hsl(0, 0%, 100%);
+}
+
+#button img{
+    float: left;
+    padding-left: 25%;
+    padding-top: 3%;
+    height: 20px;
+}
+
+#button h1{
+    text-align: center;
+    float: left;
+    padding-left: 5%;
+    border-radius: 20px;
+    height: 5%;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-size: 14px;
+    padding-bottom: 5%;
+}
+
