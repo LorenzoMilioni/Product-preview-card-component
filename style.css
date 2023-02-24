@@ -108,6 +108,7 @@ body{
     border-radius: 10px;
     height: 10%;
     color: hsl(0, 0%, 100%);
+    padding-top: 10px;
 }
 
 #button img{
@@ -124,8 +125,7 @@ body{
     border-radius: 20px;
     height: 5%;
     color: hsl(0, 0%, 100%);
-    font-weight: 700;
+    font-weight: bold;
     font-size: 14px;
-    padding-bottom: 5%;
+    padding-bottom: 8%;
 }
-
